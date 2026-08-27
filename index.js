@@ -13,6 +13,9 @@ const [app, listen] = new ChemicalServer({
     scramjet: false,
     rammerhead: false,
 });
+
+console.log("Chemical server created");
+
 const port = process.env.PORT || 3000;
 
 app.disable("x-powered-by");
